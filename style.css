@@ -1,0 +1,40 @@
+
+body{
+    background-color: #1470AF;
+    color: aliceblue;
+    font-family: 'roboto';
+}
+
+li{
+    display: inline;
+    margin: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; /* Align items to start and end of the container */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px; /* Add some padding for spacing */
+}
+.logo{
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_img_img{
+    width: 280px;
+    height: 480px;
+    border-radius: 90%;
+    margin: 20px;
+}
+.about_text{
+    font-size: 60px;
+    width: 30%;
+    margin: 20px;
+
+}
